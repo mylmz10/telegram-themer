@@ -1,0 +1,15 @@
+{
+  "name": "Telegram Custom Theme",
+  "version": "1.0",
+  "description": "Build a custom theme for Telegram Web!",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://web.telegram.org/*"]
+  }],
+  "icons": {
+    "16": "telegram_16.png",
+    "32": "telegram_32.png",
+    "144": "telegram_144.png"
+  }
+}

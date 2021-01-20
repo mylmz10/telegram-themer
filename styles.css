@@ -1,0 +1,131 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/51/ed/c0/51edc046eb80046ee4755ee71d0f19ca.jpg') !important;
+}
+
+/* Screen Size Styles Begin */
+
+@media screen and (min-width: 1024px) {
+    .page_wrap .im_page_wrap {
+        max-width: 1400px;
+    }
+    .page_wrap .tg_head_split {
+        max-width: 1400px;
+    }
+
+    .page_wrap .im_dialogs_col_wrap, .page_wrap .tg_head_logo_wrap {
+        width: 25%;
+    }
+
+    .page_wrap .im_history_col_wrap, .page_wrap .tg_head_main_wrap {
+        width: 75%;
+    }
+
+    .page_wrap .im_message_wrap{
+        max-width: 960px;
+    }
+
+    .page_wrap .im_send_panel_wrap{
+        max-width: 934px;
+    }
+
+    .page_wrap .im_send_form{
+        max-width: 762px;
+    }
+}
+
+/* Screen Size Styles End */
+
+/* Dark Mode Styles Begin */
+
+.page_wrap .tg_head_split {
+    background-color: #223441;
+}
+
+.page_wrap .im_page_wrap {
+    background-color: #111a1f;
+    color: rgba(241, 241, 242, 0.95)
+}
+.page_wrap .im_dialogs_scrollable_wrap .active a.im_dialog {
+    background-color: #202d37;
+}
+.page_wrap .im_dialogs_scrollable_wrap a.im_dialog:hover, .im_dialogs_scrollable_wrap a.im_dialog_selected {
+    background-color: #202d37;
+}
+
+.page_wrap .im_dialogs_scrollable_wrap .active a.im_dialog:hover, .im_dialogs_scrollable_wrap .active a.im_dialog_selected {
+    background-color: #2e4150;
+}
+
+.page_wrap .im_dialog_peer {
+    color: #e4e4e4;
+}
+
+.page_wrap .im_dialogs_col_wrap {
+    border-right-color: #353535;
+}
+
+.page_wrap div[my-history-mobile] .im_message_body, .page_wrap div[my-history-mobile] .im_message_out .im_message_body {
+    background-color: #202d37;
+    color: #e4e4e4;
+}
+
+.page_wrap .dropdown-menu {
+    background-color: #2e4150;
+}
+
+.page_wrap .tg_head_logo_dropdown .dropdown-menu > li > a:hover, .page_wrap .tg_head_peer_dropdown .dropdown-menu > li > a:hover {
+    background-color: rgb(32, 45, 55);;
+}
+/* left dialog card */
+.page_wrap .active .im_dialog_peer {
+    color: #e5e5e5;
+}
+/* left dialog card */
+.page_wrap a.im_dialog .im_dialog_chat_from_wrap, a.im_dialog .im_short_message_media, a.im_dialog .im_short_message_service {
+    color: grey !important;
+}
+.page_wrap .active a.im_dialog .im_dialog_chat_from_wrap, .active a.im_dialog .im_dialog_draft_from, .active a.im_dialog .im_dialog_message, .active a.im_dialog .im_short_message_media, .active a.im_dialog .im_short_message_service, .active a.im_dialog .im_short_message_text {
+    color: grey !important;
+}
+.page_wrap a.im_dialog:hover .im_short_message_text, a.im_dialog_selected .im_short_message_text {
+    color: grey !important;
+}
+
+.page_wrap .im_dialogs_scrollable_wrap a.im_dialog_searchpeer,.page_wrap .im_dialogs_scrollable_wrap a.im_dialog_searchpeer:hover,.page_wrap .im_dialogs_scrollable_wrap a.im_dialog_searchpeer_selected {
+    background-color: #202d37;
+}
+
+/* Right message */
+
+.page_wrap .im_message_selected .im_message_outer_wrap {
+    background-color: #202d37;
+    color: #e4e4e4;
+}
+
+.page_wrap .im_history_select_active .im_message_outer_wrap:hover {
+    background-color: #353535;
+    color: #e4e4e4;
+}
+
+
+/* Search Box */
+
+.page_wrap .im_dialogs_search_field {
+    background-color: #202d37;
+    border-color: #202d37;
+}
+.page_wrap .im_dialogs_search_field:active, .page_wrap .im_dialogs_search_field:focus {
+    background-color: #202d37;
+    border-color: #202d37;
+    color: #e4e4e4;
+}
+
+.page_wrap .form-control.no_outline:focus {
+    border-color: #353535;
+}
+
+.page_wrap .im_record_bg{
+    background-color: transparent;
+}
+
+/* Dark Mode Styles End */
